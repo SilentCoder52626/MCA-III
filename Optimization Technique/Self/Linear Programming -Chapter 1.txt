@@ -1,0 +1,91 @@
+
+## **Introduction**
+
+Linear Programming (LP) is a mathematical technique used to determine the best possible outcome in a given mathematical model. Its primary objective is to maximize or minimize a linear objective function, subject to a set of linear constraints. LP is widely used in areas such as manufacturing, transportation, finance, and service operations to optimize resource utilization.
+
+---
+
+## **Formulation of a Linear Programming Problem**
+
+Formulating a linear programming problem involves the following steps:
+
+1. **Define decision variables:**
+   These represent the unknowns that we need to determine.
+
+2. **Construct the objective function:**
+   A linear function that needs to be maximized or minimized (e.g., profit, cost, time).
+
+3. **Set up the constraints:**
+   These are linear inequalities or equations representing the restrictions on available resources.
+
+4. **Include non-negativity constraints:**
+   Decision variables are usually non-negative (i.e., ≥ 0).
+
+### **Example:**
+
+A company produces two products, A and B.
+
+* Profit per unit: A = \$3, B = \$5
+* Resource constraints:
+
+  * Machine 1: 2A + 3B ≤ 100 hours
+  * Machine 2: 4A + B ≤ 80 hours
+
+**Formulation:**
+Let x = units of A, y = units of B
+
+**Objective function:**
+Maximize Z = 3x + 5y
+
+**Subject to constraints:**
+
+* 2x + 3y ≤ 100
+* 4x + y ≤ 80
+* x ≥ 0, y ≥ 0
+
+---
+
+## **Benefits of Linear Programming**
+
+1. **Optimal Resource Utilization:** Helps in making the best use of available resources.
+2. **Improved Decision Making:** Provides a clear, structured method for decision-making.
+3. **Cost Reduction and Profit Maximization:** Useful in reducing costs or increasing profits.
+4. **Flexibility:** Can be applied to various fields (logistics, finance, agriculture, etc.).
+5. **Insightful Sensitivity Analysis:** Helps assess how changes in parameters affect the outcome.
+
+---
+
+## **Limitations of Linear Programming**
+
+1. **Linearity Assumption:** Real-world problems may not always be linear.
+2. **Certainty Assumption:** Assumes all coefficients are known with certainty, which may not be realistic.
+3. **Integer Solutions:** LP provides continuous solutions, not always suitable when variables must be integers.
+4. **Single Objective Function:** LP handles only one objective at a time.
+5. **Scalability Issues:** Very large problems may become computationally intensive.
+
+---
+
+## **Graphical Solutions to Linear Programming Problem**
+
+The graphical method is used for solving LP problems with **two decision variables**.
+
+### **Steps:**
+
+1. **Plot the constraints** on a graph.
+2. **Identify the feasible region** that satisfies all constraints.
+3. **Plot the objective function line** and move it parallelly to find the optimal point.
+4. **Find the point(s) of intersection** (corner points) within the feasible region.
+5. **Evaluate the objective function** at each corner point to find the optimal solution.
+
+### **Example (continued from above):**
+
+Plot the lines:
+
+* 2x + 3y = 100
+* 4x + y = 80
+
+Shade the region where all inequalities are satisfied, then evaluate Z = 3x + 5y at each vertex of the feasible region.
+
+---
+
+Let me know if you’d like diagrams or a solved example using the graphical method.
